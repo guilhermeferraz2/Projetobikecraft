@@ -2,6 +2,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f7f7f7;
   margin: 0px;
+  display: grid;
+  gap: 60px;
+  justify-items: center;
 }
 
 .title {
@@ -16,6 +19,13 @@ body {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+}
+
+.menu a {
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 4px;
+  text-transform: uppercase;
 }
 
 a {
@@ -39,36 +49,54 @@ h2 {
   color: #c6c6c6;
 }
 
+h3 {
+  margin: 0px;
+}
+
 p {
   font-size: 20px;
+  line-height: 1.3;
 }
 
 img {
   max-width: 100%;
+  display: block;
 }
 
 .grid {
   margin: 100px;
   justify-content: center;
   display: grid;
-  grid-template-columns: 500px 500px;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
 }
 
 .apresentacao {
-  padding: 50px;
+  padding: 40px;
   text-align: right;
   background-color: white;
+  position: relative;
 }
 
 .vantagens {
   padding: 50px;
+  align-self: center;
 }
 
 .especificacao {
-  display: grid;
-  justify-content: center;
-  padding: 70px;
   background-color: white;
+  padding: 40px;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+}
+
+.item p {
+  grid-column: 2;
 }
 
 .VERMAIS {
@@ -78,13 +106,17 @@ img {
 }
 
 .detalhe {
-  text-align: center;
+  width: 60px;
+  height: 4px;
   background-color: red;
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  right: -30px;
 }
 
 .rodape {
-  height: 60px;
-  text-align: center;
   background-color: white;
-  padding: 10px;
+  width: 100%;
+  text-align: center;
 }
