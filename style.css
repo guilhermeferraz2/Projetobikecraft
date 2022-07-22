@@ -22,14 +22,14 @@ body {
 }
 
 .menu a {
-  background-color: white;
+  background-color: #ffff;
   padding: 15px 30px;
   border-radius: 4px;
   text-transform: uppercase;
 }
 
 a {
-  background-color: white;
+  background-color: #ffff;
   border: 0px solid;
   padding: 20px;
   margin: 0px;
@@ -74,7 +74,7 @@ img {
 .apresentacao {
   padding: 40px;
   text-align: right;
-  background-color: white;
+  background-color: #ffff;
   position: relative;
 }
 
@@ -84,7 +84,7 @@ img {
 }
 
 .especificacao {
-  background-color: white;
+  background-color: #ffff;
   padding: 40px;
 }
 
@@ -100,15 +100,15 @@ img {
 }
 
 .VERMAIS {
-  background-color: red;
+  background-color: #ff0000;
   font-size: 16px;
-  color: white;
+  color: #ffff;
 }
 
 .detalhe {
   width: 60px;
   height: 4px;
-  background-color: red;
+  background-color: #ff0000;
   display: inline-block;
   position: absolute;
   top: 30px;
@@ -116,7 +116,7 @@ img {
 }
 
 .rodape {
-  background-color: white;
+  background-color: #ffff;
   width: 100%;
   text-align: center;
 }
